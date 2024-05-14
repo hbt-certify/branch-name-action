@@ -1,0 +1,17 @@
+{
+  "name": "branch-name-action",
+  "version": "1.0.0",
+  "description": "A Github action that takes the github-ref and extracts the branch name from it, as long as the branch name itself does not contain slashes (/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbt-certify/branch-name-action.git"
+  },
+  "keywords": [],
+  "author": "cpe@hbt.de",
+  "license": "ISC",
+  "homepage": "https://github.com/hbt-certify/branch-name-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1"
+  }
+}

@@ -1,0 +1,5 @@
+name: 'Get Branch Name'
+description: 'Writes the current branch name to the BRANCH_NAME environment variable'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
